@@ -1,0 +1,40 @@
+# AWS Project on Terraform
+
+1) download aws cli			...(aws document)
+
+2) configure your aws account  		...(aws configure)
+
+3) create a folder
+
+4) go to the visual studio
+
+5) create povider file using  (.tf)	...(go to the registy.terraform.io)
+   --> copy the use provider code
+   --> paste into the file 		...(if you want configure it)
+
+6) terraform init			...(for inistialising)
+
+7) terraform validate 
+
+8) create main.tf file			...(use terraform aws document to create) 
+   --> create vpc 
+   --> create subnets
+   --> create internet gatway
+   --> create route table
+   --> Associate route
+   --> create security group
+   --> create s3 bucket
+   --> create instance
+   --> create load balancer
+   --> create target group
+   --> Attach TG to LB
+   --> create LB lisner
+   --> create output			...(if you want LB DNS ip)
+
+9) terraform plan			...(planing or checking errors)
+
+10) terraform apply   			
+    terraform apply -auto-approve 	...(for automate)
+
+11) terraform destroy
+    terrafrom destroy -auto-approve  
